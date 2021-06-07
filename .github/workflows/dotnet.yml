@@ -19,8 +19,8 @@ jobs:
         dotnet-version: 5.0.x
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: DeckOfCardsAPITest/DeckOfCards/
+      working-directory: ./DeckOfCardsAPITest/DeckOfCards/
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore ./DeckOfCardsAPITest/DeckOfCards/
     - name: Test
-      run: dotnet test --no-build --verbosity detailed -s:RunSettings\prd.runsettings
+      run: dotnet test ./DeckOfCardsAPITest/DeckOfCards/ --no-build --verbosity detailed -s:RunSettings\prd.runsettings
