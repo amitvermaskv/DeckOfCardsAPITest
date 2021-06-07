@@ -1,4 +1,12 @@
-HOW TO RUN TESTS USING
+HOW TO RUN TESTS
+
+* TO DO FIRST
+----------------------------------------------------------------------------------
+Open solution file in visual studio. Build the solution. This will download
+all the required Nuget packages to run the project. Might have to restart visual studio
+for test exploer to detect the tests in the project. On successful build, should be able
+to run the tests using any below methods. 
+
 
 1. Visual Studio. FOR VISUAL REFERENCE PLEASE SEE "RunFromVisualStudio.jpg" file
 ----------------------------------------------------------------------------------
