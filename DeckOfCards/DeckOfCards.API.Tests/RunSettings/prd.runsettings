@@ -1,0 +1,5 @@
+﻿<RunSettings>  
+    <TestRunParameters>
+        <Parameter name="BaseURL" value="http://deckofcardsapi.com" />
+    </TestRunParameters>
+</RunSettings>  
